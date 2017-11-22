@@ -75,11 +75,13 @@ By default, qemu tries to expose the SSH server running on the target on port `1
 It currently exists in 2 variants:
 - virt-x86
 > CPU Arch: i586
+>
 > The fastest on a standard PC as it doesn't need as much instruction translations as with an arm emulation.
 > Can also be accelerated through the usage of [KVM](https://wiki.qemu.org/Features/KVM).
 - virt-arm
 > CPU Arch: armv5te
-> Closer to what is found on a target, but not published at the moment.
+>
+> Closer to what is found on a hardware target, but not published at the moment.
 
 ## How to
 
