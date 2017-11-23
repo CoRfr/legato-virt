@@ -18,7 +18,7 @@ Poky (Yocto Project Reference Distro) 1.7.3 swi-virt-x86 /dev/ttyS0
 
 swi-virt-x86 login:
 ```
-(default login is `root`, no password)
+(default login is `root`, no password, and runs the latest release)
 
 The containers exposed an SSH server, that you can eventually expose using `-p` option:
 ```
