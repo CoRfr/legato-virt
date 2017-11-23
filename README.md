@@ -36,6 +36,11 @@ $ docker run -ti -p 10022:22 quay.io/legato/virt-x86:17.09.0
 ```
 (to run version `17.09.0`)
 
+and contains a 'nightly' branch that is rebuilt with the latest code from master branch every day:
+```
+$ docker run -ti -p 10022:22 quay.io/legato/virt-x86:nightly
+```
+
 ### Run from Legato
 
 To build the target from Legato, you will need to get a toolchain.
